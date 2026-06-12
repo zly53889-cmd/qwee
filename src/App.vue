@@ -862,7 +862,7 @@ onUnmounted(() => {
                    </div>
 
                    <!-- Product Legend (Color Scale) -->
-                   <div v-if="isAnyOverlayActive" class="absolute bottom-24 left-6 w-40 z-[500] p-3 backdrop-blur-md border border-[#2d7ad4]/30 rounded-sm animate-in fade-in slide-in-from-left-4 duration-500" style="background: rgba(10, 35, 79, 0.9);">
+                   <div v-if="isAnyOverlayActive" class="absolute bottom-24 right-6 w-40 z-[500] p-3 backdrop-blur-md border border-[#2d7ad4]/30 rounded-sm animate-in fade-in slide-in-from-right-4 duration-500" style="background: rgba(10, 35, 79, 0.9);">
                       <div class="text-[10px] text-[#a5d8ff] mb-2 font-bold tracking-widest text-center">{{ activeOverlayLabel }}</div>
                       <div class="h-2.5 w-full bg-gradient-to-r from-[#2dcc5f] via-[#ffe600] to-[#ff4747] rounded-full mb-1"></div>
                       <div class="flex justify-between px-0.5">
@@ -874,7 +874,7 @@ onUnmounted(() => {
                    </div>
 
                    <!-- Map Legend from Subsystem -->
-                   <div class="absolute bottom-24 right-6 w-[120px] border border-[#2d7ad4]/50 rounded-sm p-3 z-[500] backdrop-blur-md" style="background: radial-gradient(circle at 100% 0%, rgba(10, 35, 79, 0.9), rgba(3, 13, 36, 0.9)); box-shadow: inset 0 0 15px rgba(0,208,255,0.05), 0 4px 20px rgba(0,0,0,0.6);">
+                   <div class="absolute bottom-24 left-6 w-[120px] border border-[#2d7ad4]/50 rounded-sm p-3 z-[500] backdrop-blur-md" style="background: radial-gradient(circle at 100% 0%, rgba(10, 35, 79, 0.9), rgba(3, 13, 36, 0.9)); box-shadow: inset 0 0 15px rgba(0,208,255,0.05), 0 4px 20px rgba(0,0,0,0.6);">
                        <div class="text-[#64a9f2] text-[12px] font-bold pb-2 flex items-center justify-center border-b border-[#2d7ad4]/40 mb-2 tracking-widest">
                          图例
                        </div>
